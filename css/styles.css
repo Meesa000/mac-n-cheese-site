@@ -1,31 +1,46 @@
 
 
 /* nav bar properties */
+
+body{
+    background-color: #131516;
+}
+
 .nav-bar-container ul{
+    margin-top: 50px;
     list-style: none;
     text-align: center;
-    border: 2px solid yellow;
-
     
 }
 
 .nav-bar-container li{
     display: inline;
-    margin-right: 10px;
-    
-    
-
+    margin-right: 50px;
 }
+
 .nav-bar-container a{
-    font-size: larger;
+    font-size: 30px;
     text-decoration: none;
-    color: white;
+    color: orange;
+    font-family: monospace;
 }
 
 .nav-bar-container .link1:hover,
 .nav-bar-container .link2:hover,
 .nav-bar-container .link3:hover,
 .nav-bar-container .link4:hover{
+    text-underline-offset: 5px;
     text-decoration: underline;
-    text-decoration-color: yellow;
+    text-decoration-color: white;
+    
+}
+
+.image-container{
+    width: 20%;
+    height: auto;
+    margin: auto auto;
+}
+
+.image-container img{
+    width: 100%;
 }
