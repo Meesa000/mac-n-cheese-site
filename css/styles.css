@@ -1,0 +1,31 @@
+
+
+/* nav bar properties */
+.nav-bar-container ul{
+    list-style: none;
+    text-align: center;
+    border: 2px solid yellow;
+
+    
+}
+
+.nav-bar-container li{
+    display: inline;
+    margin-right: 10px;
+    
+    
+
+}
+.nav-bar-container a{
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar-container .link1:hover,
+.nav-bar-container .link2:hover,
+.nav-bar-container .link3:hover,
+.nav-bar-container .link4:hover{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
